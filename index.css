@@ -1,7 +1,8 @@
 body {
   color: whitesmoke;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #001a1a;
+  background-image: url("./img/image.jpg");
+  background-repeat: none;
+  background-size: cover;
 }
 nav ul {
   display: flex;
@@ -19,17 +20,16 @@ header img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 5px solid rgb(152, 206, 141);
 }
 .center {
   text-align: center;
 }
 h1 {
-  color: black;
+  color: rgb(152, 206, 141);
 }
 h2 {
-  text-decoration: underline;
-  color: #005454;
+  color: rgb(152, 206, 141);
 }
 footer img {
   width: 45px;
@@ -55,19 +55,7 @@ footer p {
 nav a:hover {
   color: white;
 }
-footer {
-  background-color: black;
-}
 nav {
-  background-color: #005454;
-}
-header {
-  background-color: #002b2b;
-}
-main {
-  background-color: #002121;
-}
-h3 ul {
-  text-decoration: underline;
+  background-color: rgb(152, 206, 141);
 }
 
