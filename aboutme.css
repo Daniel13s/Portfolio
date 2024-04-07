@@ -8,8 +8,6 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
-
-  align-items: center;
   padding: 20px;
 }
 nav a {
