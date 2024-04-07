@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-image: url("./img/wall1.jpg");
+  background-image: url("./img/image.jpg");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -10,13 +10,17 @@ nav {
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
   padding: 20px;
 }
-a {
+nav a {
   text-decoration: none;
   color: black;
+  margin: 100px;
+}
+div a p {
+  text-decoration: none;
 }
 nav a:hover {
   color: greenyellow;
